@@ -2,30 +2,22 @@
 <html>
   <head>
     <title>Task List</title>
-    <script src="scr.js"></script>
     <style src="styles.css"></style>
     
   </head>
   <body>
       <h1>To-do List</h1>
       <form>
-          <input type="text" id="task" name="task" placeholder="New task"/>
-          <button type="submit">Add</button>
+          <input type="text" id="task" name="task" placeholder="New task">
+          <input type="button" id="myButton" value="Add">
       </form>
       <div>
-          <table>
-              <tr>
-                  <td>Make lunch</td>
-              </tr>
-              <tr>
-                  
-              </tr>
-          </table>
-      </div>
-    <table>
-        <tr>
+        <ul id="task-list">
+            <li><input type="checkbox" id="myCheckbox">Make Lunch</li>
 
-        </tr>
-    </table>
+        </ul>        
+      </div>
+      <script src="script.js"></script>
+
   </body>
 </html>
