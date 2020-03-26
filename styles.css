@@ -1,8 +1,6 @@
 html {
     box-sizing: border-box;
 }
-/* inherit border-box on all elements in the universe and before and after
-*/
 *, 
 *:before, 
 *:after {
@@ -10,5 +8,35 @@ html {
 }       
 
 body {
-    font-family: Arial, Geneva, sans-serif;
+    font-family: sans-serif, Arial, Geneva;
+}
+.wrapper {
+    width: 100%;
+    max-width: 20em;
+    margin: auto;
+    padding: 1em;
+    background-color: rgb(35, 27, 104);
+    color: white;
+    border-radius: 15px;
+    justify-content: center;
+    box-shadow: 5px 10px 10px #888;
+}
+h1 {
+    text-align: center;
+    font-weight: 500;
+}
+
+form {
+    text-align: center;
+}
+#myButton {
+    color: white;
+    border-radius: 100%;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    background: green;
+    border: none;
+    padding: 5%;
+}
+ul {
+    list-style: none;
 }
